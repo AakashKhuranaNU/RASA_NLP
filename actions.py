@@ -20,7 +20,7 @@ class ActionHelloWorld(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        recipe = tracker.getSlot("recipe_url")
+        recipe = tracker.get_slot("recipe_url")
         print(recipe)
         dispatcher.utter_message(text="test123")
 
