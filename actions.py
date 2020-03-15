@@ -44,7 +44,7 @@ class ActionSearch(Action):
         gs = search.Goog_Search()
 
         user_query = tracker.get_slot("query_cheeku")
-        print("query: {}".format(user_query))
+        # print("query: {}".format(user_query))
         answer = gs.search_keyword(user_query)
 
         dispatcher.utter_message(text="Here, I found a reference for you: {}".format(answer))
