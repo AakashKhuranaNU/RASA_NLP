@@ -9,6 +9,7 @@
 ## intent:goodbye
 - bye
 - goodbye
+- ciao
 - see you around
 - see you later
 
