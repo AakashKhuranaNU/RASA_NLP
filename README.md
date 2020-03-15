@@ -24,3 +24,7 @@ If using with Slack, start the ngrok server using following command:
 ``` ngrok http 5005```
 
 Enter the ngrok redirection URL in Slack Bot and update 'credentials.yml' with Slack Bot User OAuth token. 
+
+BOT GRAPH:
+
+![Graph](/Bot graph.png)
