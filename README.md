@@ -27,4 +27,4 @@ Enter the ngrok redirection URL in Slack Bot and update 'credentials.yml' with S
 
 BOT GRAPH:
 
-![Graph](Bot graph.png)
+![Graph](https://github.com/AakashKhuranaNU/RASA_NLP/blob/master/Bot%20graph.png)
