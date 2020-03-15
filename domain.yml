@@ -8,25 +8,41 @@ intents:
   - bot_challenge
   - fetch_recipe
   - provide_url
+  - user_choice
+  - user_query_search
+
+actions:
+  - action_print_recipe
+  - action_print_step
+  - action_search
+  - action_reset
 
 entities:
   - recipe_url
-actions:
-  - action_print_recipe
+  - choice
+  - query_cheeku
 
 slots:
    recipe_url:
       type: text
+   choice:
+      type: text
+   ingredients:
+     type: list
+   recipe:
+     type: list
+   nutrients:
+     type: list
+   step_no:
+     type: float
+     min_value: 1.0
+     max_value: 100.0
+   query_cheeku:
+     type: text
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
-
-  utter_greets:
-  - text: "Hey! How are you Unnati?"
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  - text: "Hey! I am the recipe-bot. How can I help you today?"
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -37,14 +53,14 @@ responses:
   utter_goodbye:
   - text: "Bye"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
-
   utter_ask_for_url:
   - text: "Sure. Please specify a URL."
 
-  utter_print:
-  - text: "In action"
+  utter_choices:
+  - text: "What do you want to do? [1] Go over ingredients list or [2] Go over recipe steps or [3] Go over nutrients list"
+
+  utter_go_ahead:
+  - text: "Should I continue to the next step?"
 
 session_config:
   session_expiration_time: 60
