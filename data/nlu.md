@@ -35,7 +35,6 @@
 - i want to search recipes.
 
 ## intent:provide_url
-- [https://www.allrecipes.com/recipe/218091/classic-and-simple-meat-lasagna/](recipe_url)
 - this is the url: [https://www.allrecipes.com/recipe/218091/classic-and-simple-meat-lasagna/](recipe_url)
 - here's the url i want to search: [https://www.allrecipes.com/recipe/218091/classic-and-simple-meat-lasagna/](recipe_url)
 - here's the recipe url: [https://www.allrecipes.com/recipe/218091/classic-and-simple-meat-lasagna/](recipe_url)
@@ -51,12 +50,12 @@
 - option [3](choice)
 
 ## intent:user_query_search
-- what is [basting](query_cheeku)
-- what is [preheating an oven](query_cheeku)
-- what are [lasagna noodles](query_cheeku)
-- how do i [cook pasta](query_cheeku)
-- how do i [cook chicken breast](query_cheeku)
-- how do you [preheat an oven](query_cheeku)
-- how do you [cook pasta](query_cheeku)
-- how to [heat oven](query_cheeku)
-- how to [baste](query_cheeku)
+- [what is basting](query_cheeku)
+- [what is preheating an oven](query_cheeku)
+- [what are lasagna noodles](query_cheeku)
+- [how do i cook pasta](query_cheeku)
+- [how do i cook chicken breast](query_cheeku)
+- [how do you preheat an oven](query_cheeku)
+- [how do you cook pasta](query_cheeku)
+- [how to heat oven](query_cheeku)
+- [how to baste](query_cheeku)
